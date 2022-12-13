@@ -1,0 +1,105 @@
+.bg{
+    display: flex;
+    width: 1440px;
+    height: 1024px;
+    background-color: #0D192B;
+}
+body{
+    margin: 0px;
+    padding: 0px;
+}
+.card{
+    margin: auto;
+    width: 350px;
+    height: 600px;
+    background-color: #15273F;
+    border-radius: 15px;
+}
+.card .image{
+    margin-top: 30px;
+    margin: auto;
+    height: 300px;
+    width: 300px;
+    border-radius: 15px;
+}
+.card .image img{
+    margin-top: 30px;
+    height: 300px;
+    width: 300px;
+    border-radius: 15px;
+}
+.card .nftname{
+    margin-top: 25px;
+    padding: 25px;
+    font-family: 'Outfit', sans-serif;
+    font-size: 23px;
+    font-weight: 400px;
+    color: white;
+}
+.card .nftDesc{
+    padding: 0px 25px 25px 25px;
+    font-family: 'Outfit', sans-serif;
+    font-size: 18px;
+    font-weight: 300;
+    color: #9CB2D9;
+    line-height: 26px;
+}
+.card .priceDate{
+    display: flex;
+    justify-content: space-between;
+    padding-top: 0px;
+    padding-left: 25px;
+    padding-right: 25px;
+    padding-bottom: 25px;
+}
+.card .priceDate .price{
+    display: flex;
+}
+.card .priceDate .price .priceNft{
+    padding-left: 5px;
+    color: #00FFF8;
+    font-family: 'Outfit', sans-serif;
+    font-size: 16px;
+    font-weight: 600;
+}
+.card .priceDate .date{
+    display: flex;
+}
+.card .priceDate .date .dateNft{
+    padding-left: 5px;
+    color: #9CB2D9;
+    font-family: 'Outfit', sans-serif;
+    font-size: 16px;
+    font-weight: 400;
+}
+.card .border{
+    border: solid 0.5px #9CB2D9;
+    width: 85%;
+    margin: auto;
+}
+.creatorNft{
+    display: flex;
+}
+.creatorNft .imageProfile{
+    margin-top: 18px;
+    margin-left: 30px;
+    height: 30px;
+    width: 30px;
+    border: solid 0.5pt #fff;
+    border-radius: 50%;
+}
+.imageProfile img{
+    height: 30px;
+    width: 30px;
+}
+.creator{
+    margin-top: 25px;
+    margin-left: 15px;
+    font-family: 'Outfit', sans-serif;
+    font-size: 16px;
+    font-weight: 400;
+    color: #9CB2D9;
+}
+.name{
+    color: #fff;
+}
